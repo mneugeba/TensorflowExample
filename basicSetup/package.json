@@ -1,0 +1,24 @@
+{
+  "name": "basic-setup",
+  "version": "1.0.0",
+  "description": "* source: https://webpack.js.org/guides/getting-started/",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.5.1",
+    "lodash": "^4.17.15"
+  }
+}
